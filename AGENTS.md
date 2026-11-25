@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+# AGENTS.md
+
+- Signed-in pages live under src/routes/_authenticated (client-only gate); data is read with the browser client under RLS, since all data is per-user.
